@@ -1,14 +1,14 @@
-# LLM Chat Application Template
+# Cloud AI chat box
 
-A simple, ready-to-deploy chat application template powered by Cloudflare Workers AI. This template provides a clean starting point for building AI chat applications with streaming responses.
+A simple, ready-to-deploy chat application powered by Cloudflare Workers AI. This project provides a clean starting point for building AI chat applications with streaming responses.
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/llm-chat-app-template)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/)
 
 <!-- dash-content-start -->
 
 ## Demo
 
-This template demonstrates how to build an AI-powered chat interface using Cloudflare Workers AI with streaming responses. It features:
+This project demonstrates how to build an AI-powered chat interface using Cloudflare Workers AI with streaming responses. It features:
 
 - Real-time streaming of AI responses using Server-Sent Events (SSE)
 - Easy customization of models and system prompts
@@ -39,8 +39,8 @@ This template demonstrates how to build an AI-powered chat interface using Cloud
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/cloudflare/templates.git
-   cd templates/llm-chat-app
+   git clone <your-repo-url>
+   cd <your-repo-folder>
    ```
 
 2. Install dependencies:
@@ -125,7 +125,7 @@ To use a different AI model, update the `MODEL_ID` constant in `src/index.ts`. Y
 
 ### Using AI Gateway
 
-The template includes commented code for AI Gateway integration, which provides additional capabilities like rate limiting, caching, and analytics.
+This project includes commented code for AI Gateway integration, which provides additional capabilities like rate limiting, caching, and analytics.
 
 To enable AI Gateway:
 
